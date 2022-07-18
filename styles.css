@@ -140,22 +140,24 @@ float: left;
     .container{
         flex-direction: column;
         align-items: center;
+        margin-left: 0%;
     }
     .text
     {
        width: 90%;
+       margin-left: 0%
     }
   .button
   {
     align-items: center;
     margin-bottom: 10%;
     margin-top: 8%;
-    margin-left: 22%;
+    margin-left: 28%;
   }
   footer{
 
    justify-content: center;
-   margin-left: 29%;
+   margin-left: 15%;
 
   }
 }
