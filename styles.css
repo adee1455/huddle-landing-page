@@ -84,6 +84,29 @@ float: left;
     background: #c6dae6;
     text-decoration: none;
   }
+  footer 
+  {
+    
+ 
+   display: flex;
+   justify-content: right;
+   
+}
+  .facebook
+  {
+    width: 1%;
+    margin-right: 5%;
+  }
+  .twitter
+  {
+    width: 1%;
+    margin-right: 5%;
+  }
+  .instagram
+  {
+    width: 1%;
+    margin-right: 5%;
+  }
 
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
