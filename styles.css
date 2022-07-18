@@ -84,7 +84,9 @@ float: left;
 }
 .button
 {
-    margin-top: 20px;
+    padding-top: 5%;
+   
+   
 }
 .btn {
     -webkit-border-radius: 29;
@@ -132,6 +134,7 @@ float: left;
     }
 
 }
+
 @media only screen and (max-width:768px) {
 
     .container{
@@ -147,6 +150,7 @@ float: left;
     align-items: center;
     margin-bottom: 10%;
     margin-top: 8%;
+    margin-left: 22%;
   }
   footer{
 
