@@ -14,19 +14,17 @@ box-sizing: border-box;
 
 body
 {
-    background: url(images/bg-desktop.svg) rgb(104, 76, 180) no-repeat fixed ;
+    text-align: left;
+    background: url(images/bg-desktop.svg) rgb(104, 76, 180) no-repeat ;
     background-size: 80%;
-}
-body
-{
+    margin: 0;
+    
 
-        max-width: 100%;
-         height: auto;
-      
 }
+
 img {
     max-width: 100%;
-    height: auto;
+   
   }
 .header
 {
@@ -84,6 +82,7 @@ img {
         max-width: 100%;
         height: auto;
         
+        
 float: left;    
 }
 .button
@@ -126,14 +125,36 @@ float: left;
   .instagram
   {
     padding-right: 15px;
-    margin-right: 20px;
+    margin-right: 100px;
   }
+/*
+  @media (max-width: 375px) {
+     
+    body {
+        text-align: center;
+        background-image: url(images/bg-mobile.svg);
+        background-size: contain;
+        padding: 6rem 5.5% 4rem;
 
-  .attribution { 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px; text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 0.05cm;
+    }
+    .container
+    {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: larger;
+        
+        margin-top: 60px;
+         display: flex;
+        flex-direction: column; 
+       margin-left: 60px;
+       
+        
+    }
+    .container img{
+        
+       
+        max-width: 100%;
+        height: auto;
+           
 }
+*/
