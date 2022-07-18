@@ -5,7 +5,8 @@ padding: 0;
 box-sizing: border-box;
 
     background: url(images/bg-desktop.svg) rgb(104, 76, 180) no-repeat fixed ;
-    background-size: cover;
+    background-size: 80%;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -61,7 +62,7 @@ box-sizing: border-box;
     padding-bottom: 20px;
 }
 .container img{
-  
+  width: 44.59%;
 float: left;    
 }
 .button
@@ -84,29 +85,34 @@ float: left;
     background: #c6dae6;
     text-decoration: none;
   }
-  footer 
+  footer
   {
-    
- 
-   display: flex;
-   justify-content: right;
    
-}
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    
+  }
   .facebook
   {
-    width: 1%;
-    margin-right: 5%;
+    padding-right: 15px;
   }
+ 
   .twitter
   {
-    width: 1%;
-    margin-right: 5%;
+    padding-right: 15px;
   }
   .instagram
   {
-    width: 1%;
-    margin-right: 5%;
+    padding-right: 15px;
+    margin-right: 20px;
   }
 
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.05cm;
+}
